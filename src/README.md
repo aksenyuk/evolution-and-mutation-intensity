@@ -6,3 +6,9 @@
 
 ### The only thing left is to... wait... a lot... :)
 
+P.S.: There can be found the parameters used, i.e.:
+
+- popsize 50
+- generations %%N (where %%N is in range from 1 to 200 to provide the increasing amount of evaluated individuals)
+- tournament 10 (20% of popsize)
+
