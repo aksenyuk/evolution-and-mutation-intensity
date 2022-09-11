@@ -1,4 +1,4 @@
-# Examining the correlation between mutation intensity and average fitness of population
+# Examining the correlation between mutation intensity and fitness values of population
 
 - The work's ***goal*** was to check what effects different values of this single mutation parameter have on the efficiency of evolution. In other words, how different values of mutation intensity reflect on the fitness of a population.
 
