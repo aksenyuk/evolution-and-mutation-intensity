@@ -24,13 +24,13 @@ where the used ***parameters*** can be found, i.e.:
 
 ![Alt text](https://github.com/allsuitablenamesarealreadytaken/evolution-and-mutation-intensity/blob/main/plots/plot%20all%20mutation%20intensities%20together.png?raw=true "plot all together")
 
-From the plot above, it can be seen that even low mutation intensity values (i.e., 5%, 10%) lead to better results than the absense of mutation at all (i.e., 0%).
+- From the plot above, it can be seen that even low mutation intensity values (i.e., 5%, 10%) lead to better results than the absense of mutation at all (i.e., 0%).
 
 From the fact that the intensity of 5% provides generally better results than 10%, it can be concluded that in our case the fitness landscape is rather smooth, therefore, it does not require that high mutation intensity to prevent the algorithm from converging to local optima (since there is not that many of ragged solutions).
 
 Whereas, in opposite, with the further increase of matutation intensity value fitness values gradually decrease (i.e., 20%-50% with the step = 10), which happens due to its tendency of becoming too random or even "random" searched.
 
-To sum up, the predictions turned out to be true, apart from the 5% mutation intensity results providing better solutions than 10% ones.
+- To sum up, the predictions turned out to be true, apart from the 5% mutation intensity results providing better solutions than 10% ones.
 
 It can be also concluded that high mutation intensities may be found usefull in cases of ragged solution space to avoid stucking in local optima.
 
