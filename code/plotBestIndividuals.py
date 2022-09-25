@@ -21,12 +21,12 @@ def plot_results(data, mut_int):
     if mut_int is not None:
         plt.title(f'Mutation intensity of {mut_int}')
         plt.plot(data[0], data[1])
-        plt.savefig(f'C:\\PATH\\TO\\FOLDER\\plot mutation intensity of {mut_int}.png')
+        plt.savefig(f'C:\\PATH\\TO\\FOLDER\\best individuals plot mutation intensity of {mut_int}.png')
     else:
         for i in data:
             plt.plot(data[i][0], data[i][1], label=f'mutation intensity = {i}')
         plt.legend()
-        plt.savefig(f'C:\\PATH\\TO\\FOLDER\\plot all mutation intensities together.png')
+        plt.savefig(f'C:\\PATH\\TO\\FOLDER\\best individuals plot all mutation intensities together.png')
 
     plt.close('figure')
 
