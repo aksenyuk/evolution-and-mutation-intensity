@@ -68,7 +68,7 @@ from the value providing best results among them to worst. However, the remainin
 
 - Since the results differ with each run, the common conclusion that can be drawn is that average fitness values either start to decrease or stop providing better results (even though there could be seen some slight raise at the end, the trade-off would not be that necessary) by the certain amount of evaluated individuals (around 1/3 of the amount of total examined individuals).
 
-- As for the impact of mutation intensity aspect, it does not seem to change any of previously stated conclusions of point 1. Best individuals.
+- As for the impact of mutation intensity aspect, it does not seem to change any of previously stated conclusions of point [Best individuals](#1-best-individuals).
 
 #### P.S.: 
 
