@@ -27,13 +27,24 @@ where the used ***parameters*** can be found, i.e.:
 
 ## 1. Best individuals:
 
-<img src="https://github.com/allsuitablenamesarealreadytaken/evolution-and-mutation-intensity/blob/main/plots/best%20individuals/best%20individuals%20plot%20all%20mutation%20intensities%20together.png" width="750" height="500">
+<div style="display: flex, direction: row">
+	<img src="https://github.com/allsuitablenamesarealreadytaken/evolution-and-mutation-intensity/blob/main/plots/best%20individuals/best%20individuals%20plot%20all%20mutation%20intensities%20together.png" height="220">
+	<img src="https://github.com/allsuitablenamesarealreadytaken/evolution-and-mutation-intensity/blob/main/plots/best%20individuals/bests%20plot%20all%20mutation%20intensities%20together%202.png" height="220">
+	<img src="https://github.com/allsuitablenamesarealreadytaken/evolution-and-mutation-intensity/blob/main/plots/best%20individuals/bests%20plot%20all%20mutation%20intensities%20together%203.png" height="220">
+</div>
+
+#### P.S.: Three plots are provided from three different runs of the algorithm for comparison of the results.
 
 ## Interpretation:
 
 - From the plot above, it can be seen that even low mutation intensity values (i.e., 5%, 10%) lead to better results than in case of changing only one gene (i.e., 0%).
 
-- From the fact that the intensity of 5% provides generally better results than 10%, it can be concluded that in our case the fitness landscape is rather smooth, therefore, it does not require that high mutation intensity to prevent the algorithm from converging to local optima (since there is not that many of ragged solutions).
+- From the fact that the intensity of 5% provides generally better results than 10%, it can be concluded that in our case the fitness landscape is rather smooth, therefore, it does not require that high mutation intensity to prevent the algorithm from converging to local optima (since there is not that many of ragged solutions). **Update:** The results of several runs of the algorithm confirms such an outcome but ***not all the time***. The relation between the discussed mutation intensity values varies: 
+	- 0 > 005 > 010;
+	- 005 > 0 > 010;
+	- 005 > 010 > 0
+	
+from the value providing best results among them to worst. However, the remaining mutation intensity values (i.e., 20%-50% with the step = 10) gradually decrease throughout all the examined runs.
 
 - Whereas, in opposite, with the further increase of matutation intensity value fitness values gradually decrease (i.e., 20%-50% with the step = 10), which happens due to its tendency of becoming too random or even "random" searched.
 
@@ -45,7 +56,19 @@ where the used ***parameters*** can be found, i.e.:
 
 ## 2. Average and standard deviation:
 
-<img src="https://github.com/allsuitablenamesarealreadytaken/evolution-and-mutation-intensity/blob/main/plots/avg-stddev/avg-stddev%20plot%20all%20mutation%20intensities%20together.png" width="750" height="500">
+<div style="display: flex, direction: row">
+	<img src="https://github.com/allsuitablenamesarealreadytaken/evolution-and-mutation-intensity/blob/main/plots/avg-stddev/avg-stddev%20plot%20all%20mutation%20intensities%20together.png" height="220">
+	<img src="https://github.com/allsuitablenamesarealreadytaken/evolution-and-mutation-intensity/blob/main/plots/avg-stddev/means%20plot%20all%20mutation%20intensities%20together%201.png" height="220">
+	<img src="https://github.com/allsuitablenamesarealreadytaken/evolution-and-mutation-intensity/blob/main/plots/avg-stddev/means%20plot%20all%20mutation%20intensities%20together%202.png" height="220">
+</div>
+
+#### P.S.: Three plots are provided from three different runs of the algorithm for comparison of the results.
+
+## Interpretation: 
+
+- Since the results differ with each run, the common conclusion that can be drawn is that average fitness values either start to decrease or stop providing better results (even though there could be seen some slight raise at the end, the trade-off would not be that necessary) by the certain amount of evaluated individuals (around 1/3 of the amount of total examined individuals).
+
+- As for the impact of mutation intensity aspect, it does not seem to change any of previously stated conclusions of point 1. Best individuals.
 
 #### P.S.: 
 
