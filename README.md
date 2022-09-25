@@ -70,6 +70,21 @@ from the value providing best results among them to worst. However, the remainin
 
 - As for the impact of mutation intensity aspect, it does not seem to change any of previously stated conclusions of point [Best individuals](#1-best-individuals).
 
+## 3. Boxplots:
+
+<div style="display: flex, direction: row">
+	<img src="https://github.com/allsuitablenamesarealreadytaken/evolution-and-mutation-intensity/blob/main/plots/boxplots/boxplot%20quality.png" height="320">
+	<img src="https://github.com/allsuitablenamesarealreadytaken/evolution-and-mutation-intensity/blob/main/plots/boxplots/boxplot%20duration.png" height="320">
+</div>
+
+#### P.S.: Plot to the left shows quality of solutions, whereas the right one - duration of runs both for different parameterizations over 10 runs best individuals.
+
+## Interpretation:
+
+- As for the quality of solutions, best individuals of higher fitness values are found in populations with lower mutation intensity, i.e., lower mutation intensity - better results, which is consistent with point [Best individuals](#1-best-individuals). However, it is also worth mentioning that the mutation intensity of 20% provides bigger range of best fitness values, giving consistent with the overall tendency average value anyway.
+
+- Speaking of duration, there is a downward trade from left to right (i.e. from 0 to 30%) followed by a raise in 40% and 50%. Again, there is a large range of the duration of obtaining best individuals with mutation intensity of 20%, however the average still confirms the main trade (i.e., average time with 10% takes more time than average with 20% which is more than average with 30%).
+
 #### P.S.: 
 
 - Separate plots can be found here: [Plots](https://github.com/allsuitablenamesarealreadytaken/evolution-and-mutation-intensity/blob/main/plots/)
