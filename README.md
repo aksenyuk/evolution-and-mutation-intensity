@@ -85,6 +85,10 @@ from the value providing best results among them to worst. However, the remainin
 
 - Speaking of duration, there is a downward trade from left to right (i.e. from 0 to 30%) followed by a raise in 40% and 50%. Again, there is a large range of the duration of obtaining best individuals with mutation intensity of 20%, however the average still confirms the main trade (i.e., average time with 10% takes more time than average with 20% which is more than average with 30%).
 
+### To sum up:
+
+- Changing one gene leads to the best results possible (among examined mutation intensity values). However, it takes one of the longest to obtain such results, so the trade-off has to be put into consideration.
+
 ### P.S.: 
 
 - Separate plots can be found here: [Plots](https://github.com/allsuitablenamesarealreadytaken/evolution-and-mutation-intensity/blob/main/plots/)
