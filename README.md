@@ -89,6 +89,4 @@ from the value providing best results among them to worst. However, the remainin
 
 - Changing one gene leads to the best results possible (among examined mutation intensity values). However, it takes one of the longest to obtain such results, so the trade-off has to be put into consideration.
 
-### P.S.
-
-- Separate plots can be found here: [Plots](https://github.com/allsuitablenamesarealreadytaken/evolution-and-mutation-intensity/blob/main/plots/)
+### P.S.: Separate plots can be found here: [Plots](https://github.com/allsuitablenamesarealreadytaken/evolution-and-mutation-intensity/blob/main/plots/)
