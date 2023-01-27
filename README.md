@@ -1,6 +1,6 @@
 # Examining the correlation between mutation intensity and fitness values in a population
 
-- The work's ***goal*** was to check what effects different values of this single mutation parameter have on the efficiency of evolution. In other words, how different values of mutation intensity reflect on the fitness values in a population.
+The work's ***goal*** was to check what effects different values of this single mutation parameter have on the efficiency of evolution. In other words, how different values of mutation intensity reflect on the fitness values in a population.
 
 Note: Vertical position was chosen as the optimization criterion.
 
@@ -25,7 +25,7 @@ where the used ***parameters*** can be found, i.e.:
 
 # Results
 
-## 1. Best individuals:
+## 1. Best individuals
 
 <div style="display: flex, direction: row">
 	<img src="https://github.com/allsuitablenamesarealreadytaken/evolution-and-mutation-intensity/blob/main/plots/best%20individuals/best%20individuals%20plot%20all%20mutation%20intensities%20together.png" height="220">
@@ -35,7 +35,7 @@ where the used ***parameters*** can be found, i.e.:
 
 #### P.S.: Three plots are provided from three different runs of the algorithm for comparison of the results.
 
-## Interpretation:
+## Interpretation
 
 - From the plot above, it can be seen that even low mutation intensity values (i.e., 5%, 10%) lead to better results than in case of changing only one gene (i.e., 0%).
 
@@ -50,11 +50,11 @@ from the value providing best results among them to worst. However, the remainin
 
 - Which leads to the conclusion that high mutation intensities may be found usefull in cases of ragged solution space to avoid stucking in local optima.
 
-### To sum up:
+### To sum u
 
 - The predictions turned out to be true, apart from the 5% mutation intensity results providing better solutions than 10% ones.
 
-## 2. Average and standard deviation:
+## 2. Average and standard deviation
 
 <div style="display: flex, direction: row">
 	<img src="https://github.com/allsuitablenamesarealreadytaken/evolution-and-mutation-intensity/blob/main/plots/avg-stddev/avg-stddev%20plot%20all%20mutation%20intensities%20together.png" height="220">
@@ -64,13 +64,13 @@ from the value providing best results among them to worst. However, the remainin
 
 #### P.S.: Three plots are provided from three different runs of the algorithm for comparison of the results.
 
-## Interpretation: 
+## Interpretation
 
 - Since the results differ with each run, the common conclusion that can be drawn is that average fitness values either start to decrease or stop providing better results (even though there could be seen some slight raise at the end, the trade-off would not be that necessary) by the certain amount of evaluated individuals (around 1/3 of the amount of total examined individuals).
 
 - As for the impact of mutation intensity aspect, it does not seem to change any of previously stated conclusions of point [Best individuals](#1-best-individuals).
 
-## 3. Boxplots:
+## 3. Boxplots
 
 <div style="display: flex, direction: row">
 	<img src="https://github.com/allsuitablenamesarealreadytaken/evolution-and-mutation-intensity/blob/main/plots/boxplots/boxplot%20quality.png" height="320">
@@ -79,16 +79,14 @@ from the value providing best results among them to worst. However, the remainin
 
 #### P.S.: Plot to the left shows quality of solutions, whereas the right one - duration of runs both for different parameterizations over 10 runs best individuals.
 
-## Interpretation:
+## Interpretation
 
 - As for the quality of solutions, best individuals of higher fitness values are found in populations with lower mutation intensity, i.e., lower mutation intensity - better results, which is consistent with point [Best individuals](#1-best-individuals). However, it is also worth mentioning that the mutation intensity of 20% provides bigger range of best fitness values, giving consistent with the overall tendency average value anyway.
 
 - Speaking of duration, there is a downward trade from left to right (i.e. from 0 to 30%) followed by a raise in 40% and 50%. Again, there is a large range of the duration of obtaining best individuals with mutation intensity of 20%, however the average still confirms the main trade (i.e., average time with 10% takes more time than average with 20% which is more than average with 30%).
 
-### To sum up:
+### To sum up
 
 - Changing one gene leads to the best results possible (among examined mutation intensity values). However, it takes one of the longest to obtain such results, so the trade-off has to be put into consideration.
 
-### P.S.: 
-
-- Separate plots can be found here: [Plots](https://github.com/allsuitablenamesarealreadytaken/evolution-and-mutation-intensity/blob/main/plots/)
+### P.S.: Separate plots can be found here: [Plots](https://github.com/allsuitablenamesarealreadytaken/evolution-and-mutation-intensity/blob/main/plots/)
