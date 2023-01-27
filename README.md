@@ -1,6 +1,6 @@
 # Examining the correlation between mutation intensity and fitness values in a population
 
-- The work's ***goal*** was to check what effects different values of this single mutation parameter have on the efficiency of evolution. In other words, how different values of mutation intensity reflect on the fitness values in a population.
+The work's ***goal*** was to check what effects different values of this single mutation parameter have on the efficiency of evolution. In other words, how different values of mutation intensity reflect on the fitness values in a population.
 
 Note: Vertical position was chosen as the optimization criterion.
 
